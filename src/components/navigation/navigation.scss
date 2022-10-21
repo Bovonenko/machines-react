@@ -1,0 +1,31 @@
+.app {
+    &__nav {
+        display: block;
+        height: 70px;
+        background-color: #dcdcdc;
+        margin-top: 4px;
+        z-index: -10;
+    }
+    &__menu {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style-type: none;
+        &-item {
+            position: relative;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-width: 180px;
+            height: 100%;
+            background-color: teal;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

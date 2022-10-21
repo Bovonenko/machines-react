@@ -1,0 +1,24 @@
+{
+    "machines": [
+      {
+        "id": 1,
+        "name": "Scale",
+        "state": "running"
+      },
+      {
+        "id": 2,
+        "name": "Attacher",
+        "state": "alarm"
+      },
+      {
+        "id": 3,
+        "name": "Packer",
+        "state": "running"
+      },
+      {
+        "id": 4,
+        "name": "Closer",
+        "state": "warning"
+      }
+    ]
+  }

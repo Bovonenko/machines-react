@@ -1,0 +1,46 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    min-height: 100px;
+    background-color: #dcdcdc;
+    font-weight: 600;
+    z-index: 10;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 8px;
+        background-color: #00a89c;
+        bottom: -4px;
+        left: 0;
+    
+    }
+    &__logo {
+        width: 300px;
+        img {
+            width: 100%;
+        }
+        :hover {
+            cursor: pointer;
+        }
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        &-time, &-contacts {
+            display: flex;
+            align-items: center;
+       }
+       &-contacts {
+        span {
+            :hover {
+                cursor: pointer;
+            }
+        }
+       }
+    }
+}
